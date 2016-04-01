@@ -1,0 +1,6 @@
+<h1>All the posts are here</h1>
+<% for x in @posts %>
+<p>the title of the post is: <%= x.title %></p>
+<p>the body of the post is: <%= x.body %></p>
+<%= link_to "Read Post", x %>
+<% end %>
